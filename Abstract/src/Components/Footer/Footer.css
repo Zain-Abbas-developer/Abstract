@@ -1,0 +1,262 @@
+.footer-section {
+    display: flex;
+    width: 98vw;
+    height: 400px;
+    background-color: #000;
+    color: #fff;
+    padding: 100px auto;
+}
+
+.about-footer {
+    margin-top: 50px;
+    margin-left: 100px;
+}
+
+.about-footer h2 {
+    margin-bottom: 20px;
+}
+
+.about-footer a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.0em;
+    line-height: 25px;
+    color: white;
+    
+}
+
+.about-footer a:hover {
+    text-decoration: underline;
+}
+
+.resource-footer {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+
+.resource-footer h2 {
+    margin-bottom: 20px;
+}
+
+.resource-footer a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.0em;
+    line-height: 25px;
+    color: white;
+}
+
+.resource-footer a:hover {
+    text-decoration: underline;
+}
+
+.community-footer {
+    margin-top: 50px;
+    margin-left: 80px;
+}
+.community-footer h2 {
+    margin-bottom: 20px;
+}
+
+.community-footer a{
+    display: flex;
+    text-decoration: none;
+    font-size: 1.0em;
+    line-height: 25px;
+    color: white;
+}
+
+.community-footer a:hover {
+    text-decoration: underline;
+}
+
+.company-footer {
+    margin-top: 50px;
+    margin-left: 80px;
+    margin-right: 150px;
+}
+.company-footer h2 {
+    margin-bottom: 20px;
+}
+
+.bottom-content {
+    margin-top: 40px;
+}
+
+.bottom-content h3 {
+    margin-bottom: 5px;
+}
+
+
+.company-footer a {
+    display: flex;
+    text-decoration: none;
+    font-size: 1.0em;
+    line-height: 25px;
+    color: white;
+}
+
+.company-footer a:hover {
+    text-decoration: underline;
+}
+
+.logo-footer {
+    position: absolute;
+    bottom: 60px;
+    right: 110px;
+}
+
+.logo-footer img {
+    width: 40px;
+    height: 40px;
+    margin: 10px auto;
+}
+
+.logo-footer p {
+    font-size: 1.3em;
+    line-height: 30px;
+}
+
+
+/* ------media query------- */
+
+
+@media (max-width: 1077px) {
+    .about-footer {
+        margin-left: 60px;
+    }
+    .logo-footer {
+        bottom: 170px;
+        right: 37px;
+    }
+
+    .logo-footer img {
+        width: 35px;
+        height: 35px;
+    }
+
+    .logo-footer p {
+        font-size: 1.1em;
+        line-height: 25px;
+    }
+}
+
+@media (max-width: 955px) {
+    .logo-footer {
+        
+        bottom: 170px;
+        right: 25px;
+    }
+
+    .logo-footer img {
+        width: 30px;
+        height: 30px;
+    }
+
+    .logo-footer p {
+        font-size: 0.9em;
+    }
+}
+
+
+@media (max-width: 850px) {
+    .about-footer {
+        margin-left: 20px;
+    }
+
+    .resource-footer {
+        margin-left: 20px;
+    }
+
+    .company-footer {
+        margin-left: 20px;
+    }
+
+    .community-footer {
+        margin-left: 20px;
+    }
+}
+
+
+@media (max-width: 725px) {
+    .logo-footer {
+        display: none;
+    }
+}
+
+@media (max-width: 620px) {
+    .footer-section {
+        padding: 0px 20px;
+    }
+    .about-footer h2 {
+        font-size: 1.2em;
+    }
+    .about-footer a {
+        font-size: 0.8em;
+    }
+
+    .resource-footer h2 {
+        font-size: 1.2em;
+    }
+    .resource-footer a {
+        font-size: 0.8em;
+    }
+
+    .community-footer h2  {
+        font-size: 1.2em;
+    }
+
+    .community-footer a {
+        font-size: 0.8em;
+    }
+
+    .company-footer h2  {
+        font-size: 1.2em;
+    }
+
+    .bottom-content h3 {
+        font-size: 1.2em;
+    }
+
+    .company-footer a {
+        font-size: 0.8em;
+    }
+}
+
+
+@media (max-width: 480px) {
+    .footer-section {
+        display: flex;
+        flex-wrap: wrap;
+        padding: 0px 4px;
+        width: 97%;
+        height: 465px;
+    }
+
+    .about-footer h2 {
+        font-size: 0.7em;
+    }
+
+    .resource-footer h2 {
+        font-size: 0.7em;
+    }
+
+    .company-footer {
+        padding-right: 150px;
+    }
+
+    .company-footer h2 {
+        font-size: 0.7em;
+    }
+
+    .community-footer h2 {
+        font-size: 0.7em;
+    }
+    .bottom-content h3 {
+        font-size: 0.7em;
+    }
+
+    .bottom-content >  a {
+        width: 100px;
+    }
+}

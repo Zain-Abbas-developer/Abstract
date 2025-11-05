@@ -1,0 +1,34 @@
+
+* {
+    --btn-color: #4C5FD5;
+    --primary-color: #000000;
+    --secondary-color: #fff;
+    --bg-color: #dadbf1;
+}
+
+.main-container {
+    position: relative;
+}
+
+.icon {
+    width: 25px;
+    height: 25px;
+}
+
+.help-container {
+    width: 100px;
+    height: 45px;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #4C5FD5;
+    color: white;
+    gap: 5px;
+    border-radius: 30px;
+    font-size: 1.0em;
+    font-weight: bold;
+    z-index: 10;
+}
