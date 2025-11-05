@@ -2,7 +2,7 @@ import React from 'react'
 import './App.css'
 import Navbar from './Components/Navbar/Navbar'
 import Hero from './Components/Hero/Hero'
-import { HiOutlineQuestionMarkCircle } from "react-icons/hi2";
+import { HiOutlineQuestionMarkCircle } from "react-icons";
 import Section from './Components/Section/Section';
 import Footer from './Components/Footer/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
